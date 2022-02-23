@@ -3514,8 +3514,8 @@ kotlin.collections.ArraysKt___ArraysKt:
 com.google.android.gms.location.zzb
 com.google.android.gms.internal.base.zaj
 com.google.android.gms.common.server.response.zaj
-android.support.v4.os.ResultReceiver
 androidx.core.app.JobIntentService$JobWorkEnqueuer
+android.support.v4.os.ResultReceiver
 androidx.arch.core.R
 kotlinx.coroutines.debug.internal.DebugProbesImpl$CoroutineOwner
 androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
@@ -6834,7 +6834,6 @@ kotlin.collections.ArraysUtilJVM:
 com.google.android.gms.internal.base.zan
 kotlin.DeprecationLevel
 com.google.android.gms.common.util.NumberUtils
-androidx.core.view.ScaleGestureDetectorCompat
 androidx.core.view.ViewGroupCompat:
     private void <init>()
     public static boolean onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
@@ -6845,6 +6844,7 @@ androidx.core.view.ViewGroupCompat:
     public static int getNestedScrollAxes(android.view.ViewGroup)
     public static final int LAYOUT_MODE_CLIP_BOUNDS
     public static final int LAYOUT_MODE_OPTICAL_BOUNDS
+androidx.core.view.ScaleGestureDetectorCompat
 androidx.core.app.NotificationCompat$CarExtender
 kotlinx.coroutines.EventLoopImplBase$DelayedResumeTask
 kotlinx.coroutines.android.HandlerDispatcherKt$awaitFrame$lambda-3$$inlined$Runnable$1

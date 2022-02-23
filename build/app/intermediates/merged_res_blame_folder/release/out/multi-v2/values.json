@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Dell\\Documents\\flutter projects\\weather_now\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Dell\\Documents\\GitHub\\WeatherNowIEEE\\build\\app\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\a7975ba3cb0c3630bd14453686890431\\jetified-play-services-basement-17.0.0\\res\\values\\values.xml",
@@ -40,6 +40,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Dell\\Documents\\GitHub\\WeatherNowIEEE\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,821",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "472,987"
+                    },
+                    "to": {
+                        "startLines": "120,125",
+                        "startColumns": "4,4",
+                        "startOffsets": "8584,8881",
+                        "endLines": "124,127",
+                        "endColumns": "12,12",
+                        "endOffsets": "8876,9045"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\03c633e46d75bfb21f082f0417f55161\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -75,25 +94,6 @@
                         "endLines": "13,14,15,16,17,18,19,20,101,102,103,104,105,106,107,108,110,111,112,113,114,115,116,117,118,303,322",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "746,826,916,1006,1086,1167,1247,1327,6280,6461,6586,6693,6873,6996,7112,7215,7570,7675,7856,7981,8156,8304,8367,8429,8508,19109,19526"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dell\\Documents\\flutter projects\\weather_now\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,821",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "472,987"
-                    },
-                    "to": {
-                        "startLines": "120,125",
-                        "startColumns": "4,4",
-                        "startOffsets": "8584,8881",
-                        "endLines": "124,127",
-                        "endColumns": "12,12",
-                        "endOffsets": "8876,9045"
                     }
                 }
             ]
