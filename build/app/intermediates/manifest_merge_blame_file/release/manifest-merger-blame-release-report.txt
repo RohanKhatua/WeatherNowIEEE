@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weather_now"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:3:5-79
+11-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:4:5-81
+12-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:5:5-85
+13-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:5:22-82
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:5-77
+14-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:7:22-74
+15
+16    <application
+17        android:name="android.app.Application"
+17-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:8:9-42
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="weather_now" >
+20-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:7:9-36
+21        <activity
+21-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:10:9-30:20
+22            android:name="com.example.weather_now.MainActivity"
+22-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:11:13-41
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:15:13-163
+24            android:exported="true"
+24-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:12:13-36
+25            android:hardwareAccelerated="true"
+25-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:16:13-47
+26            android:launchMode="singleTop"
+26-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:13:13-43
+27            android:theme="@style/LaunchTheme"
+27-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:14:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:17:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:22:13-25:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:23:15-70
+38                android:resource="@style/NormalTheme" />
+38-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:24:15-52
+39
+40            <intent-filter>
+40-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:26:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:27:17-68
+41-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:28:17-76
+43-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:33:9-35:33
+51            android:name="flutterEmbedding"
+51-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:34:13-44
+52            android:value="2" />
+52-->C:\Users\Dell\Documents\flutter projects\weather_now\android\app\src\main\AndroidManifest.xml:35:13-30
+53
+54        <service
+54-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:56
+55            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+55-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-77
+56            android:enabled="true"
+56-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-35
+57            android:exported="false"
+57-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+58            android:foregroundServiceType="location" />
+58-->[:geolocator_android] C:\Users\Dell\Documents\flutter projects\weather_now\build\geolocator_android\intermediates\library_manifest\release\AndroidManifest.xml:14:13-53
+59
+60        <uses-library
+60-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+61            android:name="androidx.window.extensions"
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+64            android:name="androidx.window.sidecar"
+64-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>
