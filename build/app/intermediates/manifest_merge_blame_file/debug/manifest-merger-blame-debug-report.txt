@@ -12,25 +12,25 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:6:5-66
-14-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:6:22-64
+14-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:6:5-66
+14-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:3:5-79
-15-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:3:22-76
+15-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:3:5-79
+15-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:3:22-76
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:4:5-81
-16-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:4:22-78
+16-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:4:5-81
+16-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:4:22-78
 17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-17-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:5:5-85
-17-->C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:5:22-82
+17-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:5:5-85
+17-->C:\Users\khatu\github\WeatherNowIEEE\android\app\src\main\AndroidManifest.xml:5:22-82
 18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-18-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
-18-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
+18-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+18-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
 19
 20    <application
 21        android:name="android.app.Application"
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+22-->[androidx.core:core:1.6.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@mipmap/ic_launcher"
 25        android:label="weather_now" >
@@ -68,44 +68,44 @@
 57            android:value="2" />
 58
 59        <service
-59-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
+59-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
 60            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-60-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
+60-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
 61            android:enabled="true"
-61-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+61-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
 62            android:exported="false"
-62-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+62-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
 63            android:foregroundServiceType="location" />
-63-->[:geolocator_android] C:\Users\Dell\Documents\GitHub\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
+63-->[:geolocator_android] C:\Users\khatu\github\WeatherNowIEEE\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
 64
 65        <uses-library
-65-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+65-->[androidx.window:window:1.0.0-beta04] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 66            android:name="androidx.window.extensions"
-66-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+66-->[androidx.window:window:1.0.0-beta04] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 67            android:required="false" />
-67-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+67-->[androidx.window:window:1.0.0-beta04] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 68        <uses-library
-68-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+68-->[androidx.window:window:1.0.0-beta04] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 69            android:name="androidx.window.sidecar"
-69-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+69-->[androidx.window:window:1.0.0-beta04] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 70            android:required="false" />
-70-->[androidx.window:window:1.0.0-beta04] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 71
 72        <activity
-72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 74            android:exported="false"
-74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\3679fa9be1d67d14c72169d3353f14d4\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 76
 77        <meta-data
-77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 78            android:name="com.google.android.gms.version"
-78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 79            android:value="@integer/google_play_services_version" />
-79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\khatu\.gradle\caches\transforms-2\files-2.1\a7975ba3cb0c3630bd14453686890431\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 80    </application>
 81
 82</manifest>
